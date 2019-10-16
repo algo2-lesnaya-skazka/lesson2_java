@@ -20,10 +20,10 @@ https://gitforwindows.org/
 
 Git шпаргалка
 
-<pre><code>$ git config -l
+<pre><code>$ git config --global -l
 $ git config --global user.name "John Doe" 
 $ git config --global user.email johndoe@example.com
-$ git config -l</code></pre>
+$ git config --global -l</code></pre>
 
 <pre><code>$ git clone https://github.com/algo2-lesnaya-skazka/lesson2_java
 $ cd lesson2_java/
