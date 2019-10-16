@@ -17,3 +17,21 @@ https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-
 
 Git for Windows
 https://gitforwindows.org/
+
+Git шпаргалка
+
+<pre><code>$ git config -l
+$ git config --global user.name "John Doe" 
+$ git config --global user.email johndoe@example.com
+$ git config -l</code></pre>
+
+<pre><code>$ git clone https://github.com/algo2-lesnaya-skazka/lesson2_java
+$ cd lesson2_java/
+$ git branch -av
+$ git checkout -b kkholopov</code></pre>
+
+copy code
+
+<pre><code>$ git add *
+$ git commit -am  “Add lesson2_java files”
+$ git push origin kkholopov</code></pre>
